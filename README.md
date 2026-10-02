@@ -114,17 +114,3 @@ Sub-national evaluation across Peru's administrative departments, comparing clas
 
 - **Loreto** represents the primary candidate for initial pilot deployment, combining near-complete geographic coverage (97.5%)[cite: 19] with the highest continuous thermal-moisture stability (0.84)[cite: 19].
 - **Amazonas** and **Madre de Dios** provide viable secondary locations (>45% suitable area)[cite: 19], while Andean and coastal departments remain constrained by thermal and moisture deficits[cite: 19].
-
-## 🛠️ Repository Structure
-
-```text
-├── data/
-│   ├── boundaries/        # GADM/geoBoundaries Level-0 & Level-1 vectors
-│   └── raw/               # Download instructions / links for WorldClim rasters
-├── scripts/
-│   ├── 01_prep_climate.R  # Raster preprocessing (crop, mask, resample)
-│   ├── 02_ecocrop_model.R # Recocrop parameterization & predict routines
-│   └── 03_zonal_stats.R   # Departmental continuous averages & zonal percentages
-├── figures/               # Output suitability maps, plots, and figures
-├── CaseStudyC_Deck.pdf    # Executive presentation slide deck
-└── README.md
