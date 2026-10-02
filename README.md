@@ -63,6 +63,48 @@ Lab-calibrated crop parameters used in the EcoCrop model[cite: 19]:
 - **Madre de Dios:** 46.6% suitable area | Mean Score: **0.45** (*Suitable*)[cite: 19]
 - **San Martín:** 40.1% suitable area | Mean Score: **0.43** (*Marginally Suitable*)[cite: 19]
 
+### 1. Global Multi-Country Suitability Overview
+Continuous suitability surfaces (0 to 1 scale) and national suitable area percentages across Portugal, Peru, Vietnam, and Tanzania:
+
+<p align="center">
+  <img src="figures/All_Rasters.png" width="48%" alt="Continuous Suitability Rasters"/>
+  <img src="figures/All-4_and_3Barplot.png" width="48%" alt="National Area Percentage Barplot"/>
+</p>
+
+| Country | Suitable National Area (%) | Suitability Assessment | Primary Limiting Factor |
+| :--- | :---: | :---: | :--- |
+| **Peru** | **38.31%** | **High / Priority** | Sub-national topography (Amazon basin suitable; Andes too cold, coast too dry) |
+| **Vietnam** | **0.29%** | Marginal / Poor | Seasonal winter chill in North; distinct dry-season gap in South |
+| **Tanzania** | **0.08%** | Marginal / Poor | Extended semi-arid savanna dry seasons across majority of mainland |
+| **Portugal** | **0.00%** | Completely Unsuitable | Structural Mediterranean summer drought breaking 230-day moisture requirement |
+
+---
+
+### 2. Provincial Binary Screening ("Any Suitability Found")
+First-pass spatial screening identifying administrative Level-1 units containing any climatically viable pixels:
+
+<p align="center">
+  <img src="figures/PRu_Province_Suitability.png" width="45%" alt="Peru Binary Province Suitability"/>
+  <img src="figures/PRT_Province.png" width="45%" alt="Portugal Binary Province Suitability"/>
+</p>
+<p align="center">
+  <img src="figures/VT_Province.png" width="45%" alt="Vietnam Binary Province Suitability"/>
+  <img src="figures/Tn_Province.png" width="45%" alt="Tanzania Binary Province Suitability"/>
+</p>
+
+---
+
+### 3. Peru Departmental Deep-Dive & Pilot Hotspots
+Continuous suitability score aggregation across Peru's administrative departments:
+
+<p align="center">
+  <img src="figures/Average_suitability_Score.png" width="55%" alt="Peru Average Suitability Score by Province"/>
+</p>
+
+- **Loreto:** 97.5% suitable area | Mean Score: **0.84** (*Highly Suitable*)
+- **Amazonas:** 50.8% suitable area | Mean Score: **0.48** (*Suitable*)
+- **Madre de Dios:** 46.6% suitable area | Mean Score: **0.45** (*Suitable*)
+- **San Martín:** 40.1% suitable area | Mean Score: **0.43** (*Marginally Suitable*)
 ---
 
 ## 🛠️ Repository Structure
