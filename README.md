@@ -95,17 +95,25 @@ First-pass spatial screening identifying administrative Level-1 units containing
 ---
 
 ### 3. Peru Departmental Deep-Dive & Pilot Hotspots
-Continuous suitability score aggregation across Peru's administrative departments:
+Sub-national evaluation across Peru's administrative departments, comparing classified suitable land area percentage against mean continuous suitability intensity:
 
 <p align="center">
-  <img src="figures/Average_suitability_Score.png" width="55%" alt="Peru Average Suitability Score by Province"/>
+  <img src="figures/New map.jpeg" width="48%" alt="Peru Percentage Area Suitable by Province"/>
+  <img src="figures/Average_suitability_Score.png" width="48%" alt="Peru Average Suitability Score by Province"/>
 </p>
 
-- **Loreto:** 97.5% suitable area | Mean Score: **0.84** (*Highly Suitable*)
-- **Amazonas:** 50.8% suitable area | Mean Score: **0.48** (*Suitable*)
-- **Madre de Dios:** 46.6% suitable area | Mean Score: **0.45** (*Suitable*)
-- **San Martín:** 40.1% suitable area | Mean Score: **0.43** (*Marginally Suitable*)
----
+| Department / Province | Suitable Area (%) | Mean Continuous Score | Suitability Classification |
+| :--- | :---: | :---: | :--- |
+| **Loreto** | **97.5%** | **0.84** | **Highly Suitable** |
+| **Amazonas** | **50.8%** | **0.48** | **Suitable** |
+| **Madre de Dios** | **46.6%** | **0.45** | **Suitable** |
+| **San Martín** | **40.1%** | **0.43** | **Marginally Suitable** |
+| **Huánuco** | **30.8%** | **0.25** | **Marginally Suitable** |
+| **Pasco** | **22.6%** | **0.29** | **Marginally Suitable** |
+| **Ucayali** | **18.3%** | **0.34** | **Marginally Suitable** |
+
+- **Loreto** represents the primary candidate for initial pilot deployment, combining near-complete geographic coverage (97.5%)[cite: 19] with the highest continuous thermal-moisture stability (0.84)[cite: 19].
+- **Amazonas** and **Madre de Dios** provide viable secondary locations (>45% suitable area)[cite: 19], while Andean and coastal departments remain constrained by thermal and moisture deficits[cite: 19].
 
 ## 🛠️ Repository Structure
 
